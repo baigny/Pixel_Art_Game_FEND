@@ -1,0 +1,79 @@
+
+           <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+        <title>
+            Pixel Art Maker ---> The Crafting Area
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#db5945">
+
+
+        <!-- Latest compiled and minified CSS for Bootstrap 3 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+      <div class="container-fluid">
+        
+          <div class ="row" style="background-color: #374046;">
+            <div class="col-md-12">
+                <h1 class="text-center">Pixel Art -- Crafting Space</h1>
+            </div>
+          </div>          
+      </div>     
+      
+      <div class="container">
+           <div class="row">
+                  <div class="col-md-5">
+                    <div class="menu">
+              <h2>Step I: Choose Grid Size</h2>
+                            <form id="sizePicker">
+                                <div class="input-group">
+                                      <span class="input-group-addon">Number</span>
+                                      <input id="inputHeight" type="text" class="form-control"placeholder="Enter Height/Number of columns">
+                                 </div>
+                                <br/>
+                                 <div class="input-group">
+                                      <span class="input-group-addon">Number</span>
+                                      <input id="inputWidth" type="text" class="form-control" placeholder="Enter Width / Number of rows ">
+                                 </div>
+                                <div class="form-group">        
+                                      <div class="col-sm-offset-2 col-sm-8">
+                                          <br/>
+                                        <input type="submit" id="inputSubmit">
+                                          
+                                      </div>
+                                </div>
+                            </form>
+                                        <div>
+                                          <br/><br/>
+                                            <h2>Step II: Pick A Color</h2>
+                                                    <div class="col-sm-offset-2 col-sm-8">
+
+                                                        <input type="color" id="colorPicker">
+
+                                                     </div>
+
+
+                                        </div>
+                    </div><!--menu tag-->
+                     
+                   </div>
+                 
+                     <div class="col-md-7">
+                         <h2 class="text-center">Design Canvas</h2>
+                            <table id="pixelCanvas">
+
+                            </table>
+                     </div>            
+           </div>
+      </div>  
+          
+    
+          <script src="js/designs.js"></script>
+  </body>
+</html>
